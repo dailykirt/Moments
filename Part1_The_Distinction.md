@@ -120,9 +120,9 @@ Which of these are survivable and which are catastrophic is a reading I am still
 inside. The names hold either way.
 
 The toy in Part 2 keeps two of June's names for sign-split rows — V- before O *unease*, R- before O
-*recoil* — and otherwise names only what these tables name. Every row fixes two or three of the four
+*recoil* — and otherwise names only what the card names. Most rows write two or three of the four
 seeds, so the toy shows the row a shape matched and what the shape adds beyond it (a variant); a shape
-no row fits is shown as *unnamed*, with the named shapes one step away beside it.
+no row fits is shown as *unnamed*, and once a poem is found, the named shapes one step away stand beside it.
 
 ### Before the first mark
 

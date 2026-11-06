@@ -217,7 +217,7 @@
   .carry{font-family:Georgia,'Iowan Old Style',serif;font-weight:300;font-style:italic;font-size:15px;
     color:var(--text-faint);line-height:1.75;max-width:40ch;margin:0 auto 8px;}
   .carry-credit{font-family:ui-monospace,Consolas,monospace;font-size:10px;letter-spacing:.14em;
-    text-transform:uppercase;color:var(--text-faint);opacity:.8;margin-bottom:20px;}
+    text-transform:uppercase;color:var(--text-faint);margin-bottom:20px;}
   .colophon{font-family:ui-monospace,Consolas,monospace;font-size:10.5px;letter-spacing:.07em;
     color:var(--text-faint);line-height:1.8;max-width:60ch;margin:0 auto;}
   .edition{font-family:ui-monospace,Consolas,monospace;font-size:10px;letter-spacing:.18em;
@@ -245,7 +245,7 @@
     <div class="eyebrow">Part 2 · the toy</div>
     <h1>Four Seeds</h1>
     <p class="tagline">turn the shape of a feeling into a poem</p>
-    <p class="whatsthis">Ten shapes to start from, ranked by my own argument about which are hardest to avoid — not by anyone's data (Part 1 §8). The four seeds below make all ten, and a good many more. Names come from Part 1's table and nowhere else: the toy shows the row it matched and what your shape adds to it, and where no row fits it says <em>unnamed</em>.</p>
+    <p class="whatsthis">Ten shapes to start from, ranked by my own argument about which are hardest to avoid — not by anyone's data (Part 1 §8). The four seeds below make all ten, and a good many more. Names come from Part 1's table, plus two of June's that the toy marks as its own: it shows the row it matched and what your shape adds to it, and where no row fits it says <em>unnamed</em>.</p>
     <p class="part">Part 2 of <a href="Part1_The_Distinction.md">Four Seeds</a> — the notation is in Part 1; this is the toy.</p>
   </header>
 
@@ -347,6 +347,7 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
   compound     R+·F·V+v haunt · R+·F·V-v reconciliation
   complete     O·R·F·V a whole moment</pre>
         <button type="button" class="copy" id="copyCard">copy the card</button>
+        <p style="margin-top:14px">Where two rows fit one shape, the toy prefers the row that writes more — the paper's own example is haunt over a whole moment (§7). Beyond that the order is the toy's choice, not the paper's.</p>
         <p style="margin-top:14px">Appendix A of Part 1, verbatim. Measured once, with small models fine-tuned on this project's own writing: between zero and four of twenty-six framework questions right with no card; twenty-three of twenty-six with one.</p>
       </div>
     </div>
@@ -416,7 +417,7 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
     "Unease":         {object:'formless',bond:'none', change:'still',   value:'bad', direction:'steady'},
     "∅":              {object:'formless',bond:'none', change:'still',   value:'neutral',direction:'steady'},
   };
-  const ALIAS={"Trapped":"also: contempt","Yearning":"also: exile"};
+  const ALIAS={"Trapped":"also: contempt","Yearning":"also: exile","Recovery":"also: relief"};
   // editorial neighbours for the named shapes (the ranking and these lists are the author's argument); an unnamed
   // shape gets its neighbours computed instead — every named shape one builder step away
   const ADJACENT={
@@ -483,32 +484,54 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
       if(!r.when(x))continue;
       const toy=r.toy?r.toy(x):null;
       const extras=[];
+      // a row that writes a mark unsigned (R, V) is shown with the sign your shape gave it; what the row did not write is the variant
+      let row=r.row;
+      if(r.writes.R===1&&x.R)row=row.replace(/\bR\b/,x.R);
+      if(r.writes.V===1&&x.V)row=row.replace(/\bV\b/,x.V+x.dir);
       if(!r.writes.O&&!r.writes.noO&&!x.O&&r.name!=='∅')extras.push('object withheld');
       if(!r.writes.R&&!r.writes.noR&&x.R)extras.push('+ '+x.R);
-      if(r.writes.R===1&&x.R&&r.name!=='A whole moment')extras.push(x.R);         // the row writes an unsigned bond
       if(r.writes.F&&x.F==='F[high]')extras.push('F[high]');
       if(!r.writes.F&&x.F)extras.push('+ '+x.F);
       if(!r.writes.V&&x.V)extras.push('+ '+x.V+x.dir);
-      if(r.writes.V===1&&x.V&&r.name!=='A whole moment')extras.push(x.V+x.dir);   // the row writes an unsigned V
-      if(r.name==='A whole moment'&&x.dir)extras.push('V'+x.dir);
-      return {name:toy||r.name, paperName:r.name, tier:r.tier, row:r.row, extras, toy:!!toy, unnamed:false};
+      return {name:toy||r.name, paperName:r.name, tier:r.tier, row, extras, toy:!!toy, unnamed:false};
     }
     return {name:'unnamed', paperName:null, tier:'no row in Part 1', row:null, extras:[], toy:false, unnamed:true};
   }
   function matchName(){return classify(state).name;}
 
   // ---------- the space: every shape the builder can make, and which have names ----------
-  const SPACE=(()=>{
-    const out=[];
-    for(const object of ALLOWED.object)for(const bond of ALLOWED.bond)for(const change of ALLOWED.change)for(const value of ALLOWED.value){
-      const dirs=value==='neutral'?['steady']:change==='still'?['steady']:ALLOWED.direction;   // the two rules, applied
-      for(const direction of dirs)out.push({object,bond,change,value,direction});
-    }
+  // The builder has 2×4×3×3×3 = 216 settings. Two rules fold them onto 136 shapes: a direction without stakes is no
+  // direction (48 settings), and a direction with nothing moving turns flux on (32 settings; Part 1 §3).
+  const SPACE=[]; let EXCL_STAKES=0, EXCL_FLUX=0;
+  for(const object of ALLOWED.object)for(const bond of ALLOWED.bond)for(const change of ALLOWED.change)for(const value of ALLOWED.value)for(const direction of ALLOWED.direction){
+    if(value==='neutral'&&direction!=='steady'){EXCL_STAKES++;continue;}
+    if(direction!=='steady'&&change==='still'){EXCL_FLUX++;continue;}
+    SPACE.push({object,bond,change,value,direction});
+  }
+  const SETTINGS=2*4*3*3*3;
+  const COVER={}, COVERED={}; let NAMED=0;
+  SPACE.forEach(st=>{const c=classify(st);COVER[c.name]=(COVER[c.name]||0)+1;(COVERED[c.name]=COVERED[c.name]||[]).push(sig(st));if(!c.unnamed)NAMED++;});
+  const ALL_UNNAMED_SILENT=(COVERED['unnamed']||[]).every(x=>!x.V);
+  // how many shapes carry a row's written marks at all (whatever name they end up with)
+  function carries(r,x){
+    const w=r.writes;
+    if(w.O&&!x.O)return false; if(w.noO&&x.O)return false; if(w.noR&&x.R)return false;
+    if(w.R===1&&!x.R)return false; if(typeof w.R==='string'&&x.R!==w.R)return false;
+    if(w.F&&!x.F)return false;
+    if(w.V===1&&!x.V)return false; if(typeof w.V==='string'&&x.V!==w.V)return false;
+    if(w.dir&&x.dir!==w.dir)return false;
+    return true;
+  }
+  const CARRY={}; ROWS.forEach(r=>{CARRY[r.name]=SPACE.filter(st=>carries(r,sig(st))).length;});
+  function freeAxes(name){ // which seeds vary across the shapes that share this name
+    const xs=COVERED[name]||[]; const out=[];
+    if(new Set(xs.map(x=>x.O)).size>1)out.push('object');
+    if(new Set(xs.map(x=>x.R)).size>1)out.push('bond');
+    if(new Set(xs.map(x=>x.F)).size>1)out.push('F-level');
+    if(new Set(xs.map(x=>x.V)).size>1)out.push('V-sign');
+    if(new Set(xs.map(x=>x.dir)).size>1)out.push('direction');
     return out;
-  })();
-  const COVER={}; let NAMED=0;
-  SPACE.forEach(st=>{const c=classify(st);COVER[c.name]=(COVER[c.name]||0)+1;if(!c.unnamed)NAMED++;});
-  const EXCLUDED=2*4*3*7-SPACE.length;   // configurations the two rules remove (a direction needs stakes, and flux)
+  }
 
   const BASE={
     'Love':           "a bond that holds, and it is good",
@@ -560,6 +583,7 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
   }
   function describe(c){
     if(c.unnamed)return mechanical(sig(state));
+    if(c.name==='A whole moment'&&state.value==='bad')return "all four at once — a complete world, and what matters in it is bad";
     const ok=state.object==='clear'?'c':'f';
     const v=VARIANT[c.name]&&VARIANT[c.name][ok]&&VARIANT[c.name][ok][state.bond];
     return v||BASE[c.name]||'';
@@ -585,8 +609,9 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
   //   · // ix             — added in edition ix, November 2026: drafted in session from the shelf's
   //                         specification by the method of §5 and judged against it by a second reader
   //                         (21 poems: Reconciliation 3, Urgency 3, Drift 3, Taboo 2, Fusion 2, Chaos 2,
-  //                         Revulsion 1, Trapped 1, Precious 1, Recoil 1, Unease 1, A distinction 1)
-  //   · // ix·unjudged    — written in session for four shapes that have no row in Part 1, shelved by formula (5 poems)
+  //                         Revulsion 1, Trapped 1, Precious 1, Recoil 1, Unease 1, and the bird on shelf "O")
+  //   · // ix·unjudged    — written in session, not lane-judged: four for shapes with no row in Part 1 (shelved by
+  //                         formula: "O", "O · R+", "O · R-", "O · R^") and one for ∅
   // Keeping or cutting any of the November poems is the author's decision, like the rest.
   const LIBRARY={
     "Love":[
@@ -808,10 +833,11 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
   };
 
   // ---------- render ----------
-  let fired=[];
+  let fired=[], dropNote=null;
   function coerce(){ // the two rules the builder keeps; each says so when it fires
     fired=[];
-    if(state.value==='neutral'&&state.direction!=='steady'){state.direction='steady';}
+    if(dropNote){fired.push(dropNote);dropNote=null;}
+    if(state.value==='neutral'&&state.direction!=='steady'){state.direction='steady';fired.push('rule: a direction needs stakes — with V silent there is nothing to rise or fade; direction set to steady');}
     if(state.direction!=='steady'&&state.change==='still'){state.change='changing';fired.push('rule: a change in how much something matters is itself flux (Part 1 §3) — F turned on');}
   }
   function render(){
@@ -833,11 +859,19 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
     document.getElementById('plain').textContent=describe(c);
     document.getElementById('rule').textContent=fired.join(' · ');
     const cover=COVER[nm]||0;
-    document.getElementById('count').innerHTML=nm==='∅'
-      ?`the one shape with nothing written · Part 1 names <b>${NAMED}</b> of the <b>${SPACE.length}</b> shapes the builder can make; <b>${SPACE.length-NAMED}</b> are unnamed · <b>${EXCLUDED}</b> settings are ruled out (a direction needs stakes, and flux)`
-      :c.unnamed
-      ?`one of <b>${SPACE.length-NAMED}</b> shapes with no row · Part 1 names <b>${NAMED}</b> of the <b>${SPACE.length}</b> the builder can make · <b>${EXCLUDED}</b> settings are ruled out (a direction needs stakes, and flux)`
-      :`<b>${esc(nm)}</b> covers <b>${cover}</b> of the <b>${SPACE.length}</b> shapes the builder can make — the row writes ${Object.keys(ROWS.find(r=>r.name===c.paperName).writes).filter(k=>k!=='dir').length} marks; the rest are free · Part 1 names <b>${NAMED}</b>; <b>${SPACE.length-NAMED}</b> are unnamed`;
+    const space=`the builder's <b>${SETTINGS}</b> settings fold onto <b>${SPACE.length}</b> shapes (a direction without stakes is no direction: ${EXCL_STAKES}; a direction with nothing moving turns flux on: ${EXCL_FLUX}) · Part 1 names <b>${NAMED}</b> of them; <b>${SPACE.length-NAMED}</b> are unnamed${ALL_UNNAMED_SILENT?' — every shape with stakes has a name; the unnamed are the ones where nothing rings yet':''}`;
+    let line;
+    if(nm==='∅')line=`∅ · the one shape with nothing written · `+space;
+    else if(c.unnamed)line=`one of <b>${SPACE.length-NAMED}</b> shapes with no row · `+space;
+    else{
+      const r=ROWS.find(q=>q.name===c.paperName); const carry=CARRY[r.name]||0; const free=freeAxes(nm);
+      const marks=Object.keys(r.writes).filter(k=>k!=='dir').length;
+      let why;
+      if(cover===carry)why=`all <b>${carry}</b> shapes that carry its ${marks} marks read as ${esc(nm)}`+(free.length?` — free in it: ${free.join(', ')}`:'');
+      else why=`<b>${carry}</b> shapes carry its ${marks} marks; <b>${carry-cover}</b> of those read as other names (rows above it, or June's split by sign)`+(free.length?` — free in it: ${free.join(', ')}`:'');
+      line=`<b>${esc(nm)}</b> covers <b>${cover}</b> of <b>${SPACE.length}</b> · ${why} · `+space;
+    }
+    document.getElementById('count').innerHTML=line;
     document.querySelectorAll('.seg').forEach(seg=>{
       const key=seg.dataset.key;
       seg.querySelectorAll('button').forEach(btn=>{
@@ -882,7 +916,7 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
       btn.onclick=()=>{
         if(btn.disabled)return;
         state[key]=btn.dataset.v;
-        if(key==='change'&&btn.dataset.v==='still')state.direction='steady';
+        if(key==='change'&&btn.dataset.v==='still'&&state.direction!=='steady'){state.direction='steady';dropNote='rule: nothing moving, so nothing rises or fades — direction set to steady (Part 1 §3)';}
         render();
       };
       btn.onkeydown=(e)=>{ // arrow keys move within a radiogroup
@@ -936,11 +970,11 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
     if(fresh||!bags[shelf].length){
       const b=pool.map((_,i)=>i);
       for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}
-      if(bags[shelf+':last']!=null&&b.length>1&&b[b.length-1]===bags[shelf+':last'])[b[0],b[b.length-1]]=[b[b.length-1],b[0]];
-      if(fresh){ // the first poem found on a shelf is the paper's own, when the shelf has one (Part 1 §5)
+      if(fresh&&bags[shelf+':last']==null){ // the first poem found on a shelf is the paper's own, when the shelf has one (Part 1 §5)
         const pi=pool.findIndex(e=>!Array.isArray(e)&&e.from);
         if(pi>=0){const at=b.indexOf(pi);if(at>=0){b.splice(at,1);b.push(pi);}}
       }
+      if(bags[shelf+':last']!=null&&b.length>1&&b[b.length-1]===bags[shelf+':last'])[b[0],b[b.length-1]]=[b[b.length-1],b[0]];
       bags[shelf]=b;
     }
     const idx=bags[shelf].pop();bags[shelf+':last']=idx;return idx;
@@ -950,7 +984,7 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
     const pr={O:state.object==='clear',R:state.bond!=='none',F:state.change!=='still',V:state.value!=='neutral'};
     const generic={
       O:["the cut — the distinct image it opens on","withheld — the poem circles an absence"],
-      R:["the bond — two things held against each other","— no bond declared; the poem stands alone"],
+      R:[state.bond==='notyet'?"the bond — not yet closed; the poem reaches":"the bond — two things held against each other","— no bond declared; the poem stands alone"],
       F:["the turn — the line where something shifts","— nothing changes; the poem holds still"],
       V:["the landing — where significance arrives","— no pull declared; which way it lands is yours"]
     };
@@ -975,8 +1009,8 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
     return chips?`<div class="nearby"><span class="nearby-label">${label}</span>${chips}</div>`:'';
   }
 
-  function showPoem(shelf,idx){
-    const c=classify(state), nm=c.name;
+  function showPoem(shelf,idx,c){
+    c=c||classify(state); const nm=c.name;
     const entry=normalize(LIBRARY[shelf][idx]);
     const isNew=c.unnamed;
     const lh=entry.lines.map(l=>`<span class="ln">${esc(l)}</span>`).join('');
@@ -1022,10 +1056,10 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
   const reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   function generate(forceIdx){
     if(pending){clearTimeout(pending);pending=null;}
-    const shelf=shelfFor(classify(state));
+    const c=classify(state), shelf=shelfFor(c);
     const idx=(forceIdx!=null&&LIBRARY[shelf][forceIdx])?forceIdx:pickIdx(shelf);
     if(forceIdx!=null)bags[shelf+':last']=idx;
-    const finish=()=>{pending=null;showPoem(shelf,idx);goBtn.disabled=false;goBtn.textContent='Find the poem';};
+    const finish=()=>{pending=null;showPoem(shelf,idx,c);goBtn.disabled=false;goBtn.textContent='Find the poem';};
     if(reduced){finish();return;}
     goBtn.disabled=true;goBtn.textContent='finding…';showComposing();
     pending=setTimeout(finish,180+Math.random()*120);
