@@ -33,3 +33,10 @@ meaning is left open on purpose.
   four seeds, and it finds a poem written from that shape. It names only what Part 1's table names — showing the row it
   matched and what your shape adds to it — and says *unnamed* when no row fits. It carries the card from Part 1's Appendix A
   for handing to a model, and the paper's own readings of its five poems. Open the file in a browser, or serve the repository as a static site.
+- **Part 3 — [Stills](Part3_Stills.md).** Twenty-five poems made with language models, May to July 2026, each with a
+  caption saying who drafted it and when.
+- **Part 4 — [Frames of Thought](Part4_Frames_Of_Thought.md).** The stances above the four seeds: seven frames named by
+  what they conserve, the seat beneath them, the ring they turn in, and what is claimed for them.
+- **Part 5 — [Patterns of Meaning](Part5_Patterns_Of_Meaning.md).** The grain beneath the states: why love and grief read
+  as two slopes of one basin whose centre has no name, the terrain the seeds generate, the fixed point and the cycle,
+  and what was demoted.

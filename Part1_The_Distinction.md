@@ -2,8 +2,8 @@
 
 ## A small notation for the shape of a moment — and the poems written from it
 
-**Kirt Daily**
-First draft June 2026 · audited and revised October 2026 · this edition November 2026 · Part 1 of two — the toy is [Part 2](Part2_Four_Seeds.html)
+**Kirt Daily**\
+First draft June 2026 · audited and revised October 2026 · this edition November 2026 · Part 1 of five — the toy is [Part 2](Part2_Four_Seeds.html); the poems, the frames and the grain are [Part 3](Part3_Stills.md), [Part 4](Part4_Frames_Of_Thought.md) and [Part 5](Part5_Patterns_Of_Meaning.md)
 
 ---
 
@@ -341,6 +341,8 @@ a rock. The storm is flux. What remains is the grain.
 O is the grain of object-perception specifically — the thing that stays fixed while you keep
 looking at it — but it is not the only seed that can be held steady. A value held while everything
 pours through is flow or siege. A process held is persistence. Any seed can be the thing conserved.
+Part 5 unfolds this section: the first basin, the terrain the seeds generate, the fixed point and
+the cycle, and what was demoted.
 
 ### Frames
 
@@ -364,7 +366,8 @@ Frames are active. A frame does not merely hold its grain still; it works to pre
 Stewardship is the one that closes the loop: it keeps attending to a thing still forming (O^) until
 it settles into O, which then becomes the next thing clarity can look at. A frame held at a
 pathological pitch — *being* the frame rather than using it — is what we usually call a shadow.
-The capacity to switch frames dissolves it. There is no separate manager above them.
+The capacity to switch frames dissolves it. There is no separate manager above them. Part 4
+unfolds this page: the seven walked as a ring, Decision as the seat beneath them, and the shadows.
 
 ### The theorem, at honest strength
 
@@ -389,7 +392,7 @@ embodiment — Part 2 is that toy). What lives in only one register is an insigh
 This has the shape of a known method in psychology — convergent validation across methods — and it
 is missing that method's second half: two *different* grains must *not* converge, or survival is
 cheap. By the standards of the mathematics-education literature it is a criterion of understanding,
-not of truth. One worked example exists, self-scored. It is a picture, not a theorem.
+not of truth. Two worked examples exist, both self-scored; Part 5 §7 prints one. It is a picture, not a theorem.
 
 ### The jump between minds
 
@@ -433,9 +436,8 @@ Rules: no stakes before an object; direction rides the seed it belongs to, never
 a seed that is absent is content — say so, do not fill it in. A lens, not a law.
 ```
 
-Measured once, with small models fine-tuned on this project's own writing: between zero and four
-of twenty-six framework questions right with no card; twenty-three of twenty-six with a 409-word
-one. The card is not optional. Part 2 carries it, with these three sentences, in a drawer with a copy button.
+The measurement is in §6: without the card the models invented a framework of their own; with it,
+they stopped. The card is not optional. Part 2 carries it, with these three sentences, in a drawer with a copy button.
 
 ### The grammar the model needs
 
@@ -664,8 +666,9 @@ texts were read; the rest rest on abstracts and secondary literature, and are ma
 - **Louis H. Kauffman, "EigenForm," *Kybernetes* 34 (2005), and "Reflexivity and Eigenform,"
   *Constructivist Foundations* 4(3) (2009).** The definition of an object as a fixed point for an
   observer, and the fixed-point theorem for reflexive domains — read, and used at the strength
-  stated in §6. Kauffman's "Peirce and Spencer-Brown" (*Cybernetics & Human Knowing* 8, 2001) for
-  the lineage of the unmarked state.
+  stated in §6. Kauffman's "The Mathematics of Charles Sanders Peirce" (*Cybernetics & Human Knowing* 8,
+  2001, in the issue *Peirce and Spencer-Brown*) for the lineage of the unmarked state. Part 5's
+  Appendix B re-checks the eigenform sources.
 - **F. William Lawvere, "Diagonal arguments and cartesian closed categories" (1969).** The general
   fixed-point theorem Kauffman's restates.
 - **Heinz von Foerster, "Objects: tokens for (eigen-)behaviors" (1976; in *Observing Systems*,
