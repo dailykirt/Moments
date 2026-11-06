@@ -3,7 +3,7 @@
 ## Seven ways a mind holds still — the stances above the four seeds, and what is claimed for them
 
 **Kirt Daily**\
-Consolidated November 2026 from working notes of June and July 2026 · Part 4 of the series (Part 1's header predates Parts 3 and 4) · the paper is [Part 1](Part1_The_Distinction.md), the toy is [Part 2](Part2_Four_Seeds.html), the poems are [Part 3](Part3_Stills.md)
+Consolidated November 2026 from working notes of June and July 2026 · Part 4 of the series · the paper is [Part 1](Part1_The_Distinction.md), the toy is [Part 2](Part2_Four_Seeds.html), the poems are [Part 3](Part3_Stills.md), the grain is [Part 5](Part5_Patterns_Of_Meaning.md)
 
 ---
 
@@ -45,10 +45,8 @@ archive of working notes this part is drawn from (described in the note at the e
 of them at least once without anything underneath moving. The table that fixed the frames in June
 2026 called them Analytical, Exploration, Production, Reflection, Stewardship, Iteration and Decision;
 the names in daily use by the same week were Clarity, Curiosity, Wisdom, Persistence, Commitment,
-Craft and Stewardship, with Decision kept as the seat; and a third set, read off the words that
-cluster at the centre of each seed's territory rather than chosen by convention — Bond, Care,
-Endurance — was judged steadier than either, though the territories those names were read from are
-themselves thinly evidenced. Appendix A.2 lists the sets side by side.
+Craft and Stewardship, with Decision kept as the seat; and a third set, named from the archive's basin notes rather than chosen by convention — Bond, Care, Endurance — was judged steadier than either, though only one of those basins was actually mapped (Part 5 §3 prints it). Appendix A.2 lists the
+sets side by side.
 
 Three things follow, and they are the whole grammar of frames. The first three sentences restate
 Part 1 §6; the rest of this part is new.
@@ -141,7 +139,7 @@ In practice, asking those four of a situation is how the frames get found.
 
 Two things that look like frames are not, and the notation is strict about both.
 
-**Decision `⟨V⟩` — "which future do I choose?"** In the roster Part 1 printed (§5) it appears as the
+**Decision `⟨V⟩` — "which future do I choose?"** In the roster Part 1 printed (§5 below) it appears as the
 seventh stance, conserving preference. In practice it is treated differently from the other six: it
 is not a stance you enter but the seat you run all of them from, and it is **never delegated** — not
 to a model, not to a habit, not to whoever is loudest in the room. Every frame can be entered freely
@@ -265,7 +263,7 @@ in which each frame has a character and my own titles, is *The Seven · A Ring* 
 ### Why Stewardship closes it
 
 Part 1 §6 said it in one sentence; here is the mechanism. A grain forms by iterating the observation
-until it reaches a fixed point — or, as §8 revises it, a loop that holds. Stewardship is the stance
+until it reaches a fixed point — or, as Part 5 §6 revises it, a loop that holds. Stewardship is the stance
 that keeps the iteration going: a committed bond to a thing *still forming* (`O^`), held until it
 settles into a thing (`O`), which then becomes the next object Clarity can look at. Stewardship is
 the perceiver's side of grain-formation. That is why it closes the cycle, and why there are paths at
@@ -367,23 +365,18 @@ it, not proof of it.
 
 Two further moves, held as lenses:
 
-**Two clocks.** Picture a landscape of basins — the states a perceiver tends to settle into. On the
+**Two clocks.** Picture a landscape of basins — the states a perceiver tends to settle into; Part 5
+§4 draws it. On the
 fast clock the perceiver *selects* among basins that are already there; it never conjures a target
 from nothing. On the slow clock the perceiver's own accumulated history *carves* new basins. Six of
 the frames act within the landscape, on the fast clock, riding the ring. Stewardship acts *on* the
 landscape — the slow clock, the one that forms a new grain or reshapes an old one — which from inside
 the old cycle looks like breaking out of it. That is the dynamic reading of why it closes the ring.
 
-**A turning that returns.** Part 1 keeps the fixed-point reading of a grain, `P(state) = state`, and
-so does §6 above. Over it sits a second reading, mine, from June: a grain is a *cycle* the operator
-leaves invariant — individual states keep moving, the shape holds *because* the water moves. A
-whirlpool, not the bottom of a bowl. Three objects got conflated along the way — a fixed point of
-the operator, the bottom of an energy bowl, and a shape that re-enters itself — and they are not
-synonyms. The first mechanism tried for the cycle, a rotation added to a downhill flow, was shown by
-a later check to give no cycle at all and was withdrawn. What survives — a stable loop needs a term
-that does not run downhill, and its fixed point lives in the return map, not in the flow — is
-standard dynamical systems, was generated with a model, has not been independently checked, and is
-parked until it is. Two things in that work died outright. A claim that only rings with an odd
+**A turning that returns.** Part 1 reads a grain as a fixed point, and so does §6 above. Over that
+sits a second reading, from June: a grain as a *cycle* the operator leaves invariant — a whirlpool,
+not the bottom of a bowl. Part 5 §6 tells that story: the mechanism that failed, what survives, and
+the prediction it killed. Two claims about the frames themselves died in the same work. A claim that only rings with an odd
 number of frames could oscillate fell to arithmetic. And a proposed mapping of the seven frames onto
 a *signed* ring — neighbours exciting or inhibiting one another, each link carrying a sign — turned
 out to have no evidence behind it at all. Both are recorded here so no one rebuilds them.
@@ -465,10 +458,7 @@ answer is confirmed.
   test.
 - **The operator model is a toy.** It shows that *if* stances read each other's axes, order matters —
   which is a conditional, not a finding about minds.
-- **Two claims were withdrawn.** Part 1 §6 records that no theorem guarantees a frame its grain, and
-  the withdrawal stands here. A second, that change and weight behave as a conjugate pair in the
-  Fourier sense, was the notation's one falsifiable prediction and appears to have failed; it is
-  retired.
+- **One claim was withdrawn, and one prediction demoted.** Part 1 §6 records that no theorem guarantees a frame its grain, and the withdrawal stands here. The notation's one falsifiable prediction, about change and weight, was demoted in July: it fails if the cycle reading of the grain stands. Part 5 §6 tells it.
 
 ---
 
@@ -492,13 +482,7 @@ are reconciled it is the frame most likely to be mis-shelved.
 also say it is *not a perspective to invoke* but the reason the others exist. Both are written down;
 the ring reading and the purpose reading have not been squared.
 
-**Second frames.** Craft's and Curiosity's are open; Craft is also the only frame the archive never
-found a territory of its own for.
-
-**The origin poem's missing line.** Part 1 prints *A Mind, Turned* with the lines about mattering.
-The archive's canonical short form of the same poem has no line for `V`; the reader supplies it. A
-model session once supplied the line. Whether the poem is better complete or better with the gap is a
-different poem, not a correction, and it is still undecided.
+**Second frames.** Craft's and Curiosity's are open; Craft is also the only frame the archive's basin notes give no anchor.
 
 **History to weighting.** A way of writing how a perceiver's accumulated history sets which frames
 are cheap — the frame-side of Part 1 §9's *history to size*, and the formal piece that would keep
@@ -558,23 +542,21 @@ The June roster gave each row two words: the name, and the thing it conserves.
   ⟨V⟩        Decision · preference            the seat        —
 ```
 
-A cluster-derived name is read off the words that gather at the centre of a seed's territory rather
-than chosen; the archive's rule is to prefer such names because they are less likely to drift. The
-territories themselves are thinly evidenced, which is why only three rows have one.
+A cluster-derived name comes from the archive's basin notes rather than from convention. *Care* is a word in the first ring of the one basin that was mapped (Part 5 §3); *Clarity* and *Curiosity* sit in the felt ring of the object basin, drawn by symmetry (Part 5 §4); *Bond* and *Endurance* are the archive's glosses on a ring of the mapped basin and of a drawn one. The archive's rule is to prefer such names because they are less likely to drift; these are thinly evidenced.
 
 ---
 
 ## Appendix B · Where the ideas come from
 
-Nothing new is imported for the frames beyond what Part 1's Appendix B already lists. The word
+Nothing new is imported as mathematics for the frames beyond what Part 1's Appendix B already lists. The word
 *eigenform* and the fixed-point reading are von Foerster's and Kauffman's, used at the strength Part
 1 §6 states. The idea that a stance conserves something while everything else moves is a modelling
 choice. The shadow pairs and the awareness ladder are the archive's own working vocabulary, and the
-word *shadow* is used in its plain sense: the frame's own shape, cast when the light is wrong. §8
-touches two bodies of standard material — order effects and path dependence in judgement, and the
-return map of a stable cycle in dynamical systems — and neither has yet been read against the page
-the way Part 1's sources were; they are named as convergent and nothing more, and belong in a later
-audit.
+word *shadow* is used in its plain sense: the frame's own shape, cast when the light is wrong. §8 leans on one body of standard material. Order effects in judgement — Jennifer Trueblood & Jerome
+Busemeyer, "A quantum probability account of order effects in inference," *Cognitive Science* 35
+(2011); Busemeyer & Peter Bruza, *Quantum Models of Cognition and Decision* (2012) — show that the
+order of evidence changes a judgement. They are about evidence, not about these stances, and support
+§8 only at that weaker strength (records and abstracts read, November 2026). Path dependence is named in §8 without a source checked against the page. The return map of a stable cycle belongs to Part 5, with its sources.
 
 ---
 
@@ -585,7 +567,7 @@ working files — a structural session that fixed their definitions, a character
 of them a carrier, a set of two-line poems that gave each a grain and a shadow, and a few weeks of
 trying to make the whole thing move. Three outside model sessions, handed the notation, each returned
 part of the structure in their own words — two of them the frame-and-shadow pairs, one the first
-territory — which is what persuaded me there was something to consolidate. This part was assembled in
+basin (Part 5 §3) — which is what persuaded me there was something to consolidate. This part was assembled in
 November 2026 from those files, with AI assistants reading them for every claim and its address and
 arguing about what was and was not supported. The characters who carry the frames, and their objects,
 are left to Part 3. The decisions about what to keep, and the reading in §5, are mine.

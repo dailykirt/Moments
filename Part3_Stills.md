@@ -3,7 +3,7 @@
 ## Poems made generatively, May to July 2026
 
 **Kirt Daily**\
-Part 3 of the series · the paper is [Part 1](Part1_The_Distinction.md) · the toy is [Part 2](Part2_Four_Seeds.html) · this edition November 2026
+Part 3 of the series · the paper is [Part 1](Part1_The_Distinction.md) · the toy is [Part 2](Part2_Four_Seeds.html) · the frames are [Part 4](Part4_Frames_Of_Thought.md) · the grain is [Part 5](Part5_Patterns_Of_Meaning.md) · this edition November 2026
 
 ---
 
