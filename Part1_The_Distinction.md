@@ -3,7 +3,7 @@
 ## A small notation for the shape of a moment — and the poems written from it
 
 **Kirt Daily**
-First draft June 2026 · audited and revised October 2026 · this edition November 2026
+First draft June 2026 · audited and revised October 2026 · this edition November 2026 · Part 1 of two — the toy is [Part 2](Part2_Four_Seeds.html)
 
 ---
 
@@ -118,6 +118,11 @@ needs. These states are unstable, seeking, and the most fertile ground for poems
 
 Which of these are survivable and which are catastrophic is a reading I am still making from the
 inside. The names hold either way.
+
+The toy in Part 2 keeps two of June's names for sign-split rows — V- before O *unease*, R- before O
+*recoil* — and otherwise names only what these tables name. Every row fixes two or three of the four
+seeds, so the toy shows the row a shape matched and what the shape adds beyond it (a variant); a shape
+no row fits is shown as *unnamed*, with the named shapes one step away beside it.
 
 ### Before the first mark
 
@@ -287,6 +292,9 @@ a cut, a relation and a turn in every poem regardless — which is the map doing
 checklist. The *information* is in the formula: which seeds are present, which are missing, and in
 what order.
 
+The toy in Part 2 carries these five, each with the reading above, as the first poem it finds for
+that shape.
+
 ### What the poet provides
 
 The notation specifies structure. It does not produce the poem. Someone still has to find *warm at
@@ -376,7 +384,7 @@ relativized eigenform stands on its own footing — as a modeling choice — and
 
 A grain is real, I have proposed, if it survives translation across four registers: mathematics
 (the structure), poetry (the flux), diagram (the relation), and a toy you can hold and do (the
-embodiment). What lives in only one register is an insight not yet finished.
+embodiment — Part 2 is that toy). What lives in only one register is an insight not yet finished.
 
 This has the shape of a known method in psychology — convergent validation across methods — and it
 is missing that method's second half: two *different* grains must *not* converge, or survival is
@@ -427,7 +435,7 @@ a seed that is absent is content — say so, do not fill it in. A lens, not a la
 
 Measured once, with small models fine-tuned on this project's own writing: between zero and four
 of twenty-six framework questions right with no card; twenty-three of twenty-six with a 409-word
-one. The card is not optional.
+one. The card is not optional. Part 2 carries it, with these three sentences, in a drawer with a copy button.
 
 ### The grammar the model needs
 
@@ -746,7 +754,10 @@ The first draft was written in June 2026 as a way of understanding poems I had a
 In October 2026 every claim in it was audited against its sources; three were withdrawn and nine
 weakened, and this edition carries the results. The research was conducted with AI assistants
 working in session — drafting, auditing, fetching and reading sources, and arguing back. The
-poems are mine. So are the decisions, including the wrong ones that the audit caught.
+poems are mine. So are the decisions, including the wrong ones that the audit caught. The companion
+toy (Part 2, edition ix, November 2026) marks, in its source, which poems are the June library, which
+are the five from §5, and which were added in November for the shapes the library left thin — drafted
+in session by the method of §5. Keeping or cutting those is mine, like the rest.
 
 Nothing here is finished. The open questions in §9 are real questions, and the tests behind them
 are being run slowly, by one person, in the evenings.
