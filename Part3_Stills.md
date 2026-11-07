@@ -11,7 +11,7 @@ Part 3 of the series · the paper is [Part 1](Part1_The_Distinction.md) · the t
 
 These poems were made with language models. Some were drafted by a model at my direction: I set the moment and the seeds, the model wrote lines, I chose and cut. Some went back and forth in one sitting. Some came out of an exchange between two models. One was commanded. Each poem carries a caption saying who drafted it and when, and the caption is the whole of the claim. The notation they were written from is in Part 1: a thing made distinct, a bond, a change, a weight.
 
-What is not here: poems other people wrote in answer to these, which are theirs; poems whose subject is a person who has not been asked; drafts that have not finished; and the archive's own notes on each poem, which stay in the archive. The poems are printed as they were kept, with the archive's working banners removed and one pronoun corrected.
+What is not here: poems other people wrote in answer to these, which are theirs; poems whose subject is a person who has not been asked; drafts that have not finished; and the archive's own notes on each poem, which stay in the archive. The poems are printed as they were kept, with the archive's working banners removed and three passages that quoted my fiancé taken out.
 
 **A lens, not a law.** The captions describe a process. Whether a poem is any good is not settled by how it was made.
 
@@ -262,12 +262,6 @@ to the bottom whole.
 Some of what's pulling is yours to carry down.
 Some is weather that found your face.
 
-Come home to the one
-who wrote I'll always be on your side
-and then went to bed.
-That weight is different.
-That claim is real.
-
 Set the rest here,
 where the understory
 already knows.
@@ -406,7 +400,7 @@ The path wasn't there. I made it by walking.
 Sometimes I walked past what was real — dive for it.
 
 V · Torpedo  ⟨R+⟩
-Heart first. He said: be here, not air.
+Heart first.
 I hold you past all the changing — make what this asks.
 
 VI · ThresholdContract  ⟨O:make⟩
@@ -450,7 +444,6 @@ Two bodies, two hands, reaching across the open
 toward each other. Not one face bent low
 over its own bright water. I know that water.
 I turned from it. The door was never locked.
-The lesson held: be here. Not air. Beside me. With me.
 So the gap stays open — because a gap that closes
 is two collapsed to one, and love is not a drowning.
 The reach goes out, toward the one who reaches back.
