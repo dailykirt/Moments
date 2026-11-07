@@ -11,7 +11,7 @@ Part 3 of the series · the paper is [Part 1](Part1_The_Distinction.md) · the t
 
 These poems were made with language models. Some were drafted by a model at my direction: I set the moment and the seeds, the model wrote lines, I chose and cut. Some went back and forth in one sitting. Some came out of an exchange between two models. One was commanded. Each poem carries a caption saying who drafted it and when, and the caption is the whole of the claim. The notation they were written from is in Part 1: a thing made distinct, a bond, a change, a weight.
 
-What is not here: poems other people wrote in answer to these, which are theirs; poems whose subject is a person who has not been asked; drafts that have not finished; and the archive's own notes on each poem, which stay in the archive. The poems are printed as they were kept, with the archive's working banners removed and one pronoun corrected.
+What is not here: poems other people wrote in answer to these, which are theirs; poems whose subject is a person who has not been asked; drafts that have not finished; and the archive's own notes on each poem, which stay in the archive. The poems are printed as they were kept, with the archive's working banners removed and three passages that quoted my fiancé taken out.
 
 **A lens, not a law.** The captions describe a process. Whether a poem is any good is not settled by how it was made.
 
