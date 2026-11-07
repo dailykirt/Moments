@@ -40,3 +40,7 @@ meaning is left open on purpose.
 - **Part 5 — [Patterns of Meaning](Part5_Patterns_Of_Meaning.md).** The grain beneath the states: why love and grief read
   as two slopes of one basin whose centre has no name, the terrain the seeds generate, the fixed point and the cycle,
   and what was demoted.
+- **Part 6 — [The Chord Codex](Part6_Chord_Codex.md).** A tool for analyzing moments: a moment read as a chord
+  of four marks of its own — object, cut, change and bond, kin to the four seeds but not the same four — each
+  lit or dark. Four questions and three working rules, sixteen chords with a poem each, five moments worked
+  through, what a *glyph* is in this series, and what the tool cannot see.

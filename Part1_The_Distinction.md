@@ -3,7 +3,7 @@
 ## A small notation for the shape of a moment — and the poems written from it
 
 **Kirt Daily**\
-First draft June 2026 · audited and revised October 2026 · this edition November 2026 · Part 1 of five — the toy is [Part 2](Part2_Four_Seeds.html); the poems, the frames and the grain are [Part 3](Part3_Stills.md), [Part 4](Part4_Frames_Of_Thought.md) and [Part 5](Part5_Patterns_Of_Meaning.md)
+First draft June 2026 · audited and revised October 2026 · this edition November 2026 · Part 1 of six — the toy is [Part 2](Part2_Four_Seeds.html); the poems, the frames, the grain and the chords are [Part 3](Part3_Stills.md), [Part 4](Part4_Frames_Of_Thought.md), [Part 5](Part5_Patterns_Of_Meaning.md) and [Part 6](Part6_Chord_Codex.md)
 
 ---
 
