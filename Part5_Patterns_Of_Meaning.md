@@ -3,7 +3,7 @@
 ## The grain beneath the states — eigenforms, basins, and what stays when everything moves
 
 **Kirt Daily**\
-Consolidated November 2026 from working notes of June and July 2026, with sources re-checked in November · Part 5 of the series · the paper is [Part 1](Part1_The_Distinction.md), the toy is [Part 2](Part2_Four_Seeds.html), the poems are [Part 3](Part3_Stills.md), the frames are [Part 4](Part4_Frames_Of_Thought.md)
+Consolidated November 2026 from working notes of June and July 2026, with sources re-checked in November · Part 5 of the series · the paper is [Part 1](Part1_The_Distinction.md), the toy is [Part 2](Part2_Four_Seeds.html), the poems are [Part 3](Part3_Stills.md), the frames are [Part 4](Part4_Frames_Of_Thought.md), the chords are [Part 6](Part6_Chord_Codex.md)
 
 ---
 
@@ -281,7 +281,7 @@ theorem mostly the other way round, to show that certain things cannot exist.
 ## 7 · Four registers, one grain
 
 How do you tell a real grain from an artifact of the way you happened to write it down? Part 1 §6
-proposed a translation test across four registers; the archive's working files call them windows. Same test.
+proposed a translation test across four registers; the archive's working files call them windows. Same test. Those files also call one grain carried through all four a *glyph* — a *full glyph*, in Part 6 §7's terms.
 
 ```
   Math      structure     the notation, the chain, the formula

@@ -3,7 +3,7 @@
 ## Seven ways a mind holds still — the stances above the four seeds, and what is claimed for them
 
 **Kirt Daily**\
-Consolidated November 2026 from working notes of June and July 2026 · Part 4 of the series · the paper is [Part 1](Part1_The_Distinction.md), the toy is [Part 2](Part2_Four_Seeds.html), the poems are [Part 3](Part3_Stills.md), the grain is [Part 5](Part5_Patterns_Of_Meaning.md)
+Consolidated November 2026 from working notes of June and July 2026 · Part 4 of the series · the paper is [Part 1](Part1_The_Distinction.md), the toy is [Part 2](Part2_Four_Seeds.html), the poems are [Part 3](Part3_Stills.md), the grain is [Part 5](Part5_Patterns_Of_Meaning.md), the chords are [Part 6](Part6_Chord_Codex.md)
 
 ---
 
@@ -38,8 +38,7 @@ person in Clarity can watch love become grief without leaving Clarity; what they
 the object, not the feeling.
 
 So a frame is written as the seed it conserves, in angle brackets: `⟨O⟩`, `⟨R⟩`, `⟨F⟩`. Part 1 writes
-the same marks keyboard-safe, `<O>`; the brackets here are typographic, and the minus in `R-` is a
-plain hyphen. The English names — Clarity, Wisdom, Persistence — are aliases. Two stances are the same
+the same marks keyboard-safe, `<O>`; the brackets here are typographic, and the minus in `R-` is a plain hyphen. The bracketed sign is the frame's *glyph*, the word this part uses for it; Part 6 §7 says what the series means by the word. The English names — Clarity, Wisdom, Persistence — are aliases. Two stances are the same
 frame if and only if they conserve the same thing; what you call them is a convenience. The private
 archive of working notes this part is drawn from (described in the note at the end) has renamed most
 of them at least once without anything underneath moving. The table that fixed the frames in June
