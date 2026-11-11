@@ -407,10 +407,10 @@ far end.
 
 The surface of this framework travels in the poems alone. The depth — the grain, the trajectory,
 the holding — travels only in an explicit vehicle, and a reader without one does not go quiet; they
-go confident. I have one clean instance. Small language models fine-tuned on this project's own
-writing, asked thirteen questions about the framework with no card in front of them, scored between
-zero and four out of twenty-six and invented a complete framework each time. Given a 409-word
-summary, the same model scored twenty-three and stopped inventing. The voice was in the weights. The
+go confident. I have one clean instance. Three small language models fine-tuned on my own log of
+questions and answers, asked thirteen questions about the framework with no summary in front of them, scored between
+zero and four points out of twenty-six and invented a complete framework each time. Given a 409-word
+summary, the smaller two scored thirteen and twenty-one and invented less; the largest scored twenty-three and stopped inventing. The voice was in the weights. The
 framework was not.
 
 ---
@@ -436,8 +436,8 @@ Rules: no stakes before an object; direction rides the seed it belongs to, never
 a seed that is absent is content — say so, do not fill it in. A lens, not a law.
 ```
 
-The measurement is in §6: without the card the models invented a framework of their own; with it,
-they stopped. The card is not optional. Part 2 carries it, with these three sentences, in a drawer with a copy button.
+The measurement in §6 used a 409-word summary, not the card: without a summary the models invented a framework of their own; with one,
+the largest stopped. The card is not optional. Part 2 carries it, with these three sentences, in a drawer with a copy button.
 
 ### The grammar the model needs
 
@@ -548,8 +548,8 @@ act on.
   of a perceiver function, not identical to it; the part of that theory under dispute since 2021 —
   the boundary formalism — was never imported here.
 - That "twenty-seven feelings across cultures" is a finding. One widely cited study found
-  twenty-seven in American viewers; the cross-cultural follow-ups keep finding a couple of dozen,
-  most of them shared. The ten feelings this project is built around are ranked by my own argument
+  twenty-seven in American viewers; the cross-cultural follow-ups keep finding one to two dozen,
+  most of them shared. The ten feelings this project is built around (Part 2) are ranked by my own argument
   about which are hardest to avoid, not by anyone's data.
 
 ---

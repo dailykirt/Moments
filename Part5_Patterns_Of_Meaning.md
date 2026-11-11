@@ -558,7 +558,7 @@ only a record or a summary could be reached, the entry says so.
   birthday, Geneva, 1976; in *Observing Systems* (1981) and *Understanding Understanding* (2003). His
   line is *objects are tokens for eigen-behaviors*; the often-quoted gloss about apparent stability is
   Kauffman's. Read through quotation and Kauffman's account, not in the chapter itself.
-- **Louis H. Kauffman, "EigenForm," *Kybernetes* 34(1/2): 129–150 (2005).** Read. Kauffman calls his
+- **Louis H. Kauffman, "EigenForm," *Kybernetes* 34(1/2): 129–150 (2005).** Read. Kauffman calls the
   proof that every recursion has a fixed point "a startling magician's trick"; the fixed point it
   produces is a formal infinite expression, and need not be a state the system can be in.
 - **Kauffman, "Reflexivity and Eigenform: The Shape of Process," *Constructivist Foundations* 4(3):

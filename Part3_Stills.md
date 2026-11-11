@@ -292,7 +292,7 @@ That was the whole of it.
 
 ## V · The seeds, spoken
 
-The two poems Part 1 is built around, printed again so the set is whole: the walk through the four seeds, and its compression.
+The two poems Part 1 is built around, printed here so the set is whole: the walk through the four seeds, and its compression.
 
 ```
 First, a line is drawn —

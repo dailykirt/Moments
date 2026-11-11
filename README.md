@@ -30,7 +30,7 @@ meaning is left open on purpose.
 - **Part 1 — [The Distinction](Part1_The_Distinction.md).** The paper: the four seeds, their order, the perceiver,
   five poems written from specifications, what is claimed and what is not, and where the ideas come from.
 - **Part 2 — [Four Seeds, the toy](Part2_Four_Seeds.html).** A page you can hold and do: pick a shape or build one from the
-  four seeds, and it finds a poem written from that shape. It names only what Part 1's table names — showing the row it
+  four seeds, and it finds a poem written from that shape. It names what Part 1's table names, plus two it marks as its own — showing the row it
   matched and what your shape adds to it — and says *unnamed* when no row fits. It carries the card from Part 1's Appendix A
   for handing to a model, and the paper's own readings of its five poems. Open the file in a browser, or serve the repository as a static site.
 - **Part 3 — [Stills](Part3_Stills.md).** Twenty-four poems made with language models, May to July 2026, each with a
