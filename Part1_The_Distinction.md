@@ -371,7 +371,7 @@ unfolds this page: the seven walked as a ring, Decision as the seat beneath them
 
 ### The theorem, at honest strength
 
-The word *eigenform* comes from Heinz von Foerster, and Louis Kauffman gave it a precise home: an
+The idea behind *eigenform* comes from Heinz von Foerster, and Louis Kauffman gave it a precise home: an
 object is a fixed point of an observer's recursion, p = F(p). Kauffman also proved that in a
 "reflexive domain" — a space in correspondence with its own transformations — every map has a fixed
 point. (The general result is Lawvere's, 1969.)
@@ -672,7 +672,7 @@ texts were read; the rest rest on abstracts and secondary literature, and are ma
 - **F. William Lawvere, "Diagonal arguments and cartesian closed categories" (1969).** The general
   fixed-point theorem Kauffman's restates.
 - **Heinz von Foerster, "Objects: tokens for (eigen-)behaviors" (1976; in *Observing Systems*,
-  1981).** The origin of the word *eigenform* and of second-order cybernetics — the cybernetics of
+  1981).** The origin of the idea behind *eigenform* and of second-order cybernetics — the cybernetics of
   observing systems — which is where P( ) belongs. **Francisco Varela, "A calculus for
   self-reference" (1975)** extends Spencer-Brown's two values with a third, self-referential one;
   it bears on F rather than on P( ).
