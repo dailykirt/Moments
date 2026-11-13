@@ -620,7 +620,7 @@ That's it.
 That's all it takes.
 ```
 
-*A Mind, Turned · June 2026*
+*A Mind, Turned · June 2026 · drafted by Claude Sonnet*
 
 ---
 
@@ -753,10 +753,10 @@ the page.
 
 ## A note on how this was made
 
-The first draft was written in June 2026 as a way of understanding poems I had already written.
+The first draft was written in June 2026 as a way of understanding poems I had already kept.
 In October 2026 every claim in it was audited against its sources; three were withdrawn and nine
 weakened, and this edition carries the results. The research was conducted with AI assistants
-working in session — drafting, auditing, fetching and reading sources, and arguing back. The
+working in session — drafting, auditing, fetching and reading sources, and arguing back. They drafted poems too; the closing poem is one, and as I remember it, the model proposed the five poems in §5. I kept them. The
 poems are mine. So are the decisions, including the wrong ones that the audit caught. The companion
 toy (Part 2, edition ix, November 2026) marks, in its source, which poems are the June library, which
 are the five from §5, and which were added in November for the shapes the library left thin — drafted
