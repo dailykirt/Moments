@@ -453,7 +453,7 @@ answer is confirmed.
 - **Frames are stances, not types.** Nothing here sorts people. Temperament (§9) is a weighting over
   stances any person can enter; it is not a box.
 - **The ring is a working order, not a law of development.** The shadow-to-grain bridges were
-  drafted, then matched by two of the three outside sessions; that is encouraging and it is not a
+  drafted; of the three outside sessions, one returned the frames' oppositions and one a pattern of virtue, shadow, and correction (§7). That is encouraging and it is not a
   test.
 - **The operator model is a toy.** It shows that *if* stances read each other's axes, order matters —
   which is a conditional, not a finding about minds.
@@ -565,7 +565,7 @@ The frames were worked out in June and July 2026, mostly in the evenings, in a p
 working files — a structural session that fixed their definitions, a character sheet that gave most
 of them a carrier, a set of two-line poems that gave each a grain and a shadow, and a few weeks of
 trying to make the whole thing move. Three outside model sessions, handed the notation, each returned
-part of the structure in their own words — two of them the frame-and-shadow pairs, one the first
+part of the structure in their own words — one the frames' oppositions, one a pattern of virtue, shadow, and correction, one the first
 basin (Part 5 §3) — which is what persuaded me there was something to consolidate. This part was assembled in
 November 2026 from those files, with AI assistants reading them for every claim and its address and
 arguing about what was and was not supported. The characters who carry the frames, and their objects,
